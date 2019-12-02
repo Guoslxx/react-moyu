@@ -1,4 +1,15 @@
 .layout-container {
-    background: linear-gradient(to top, rgb(0, 90, 167), rgb(255, 253, 228));
+    position: relative;
     padding: 50px;
+
+    .layout-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url('https://cn.bing.com/th?id=OHR.AKParksDay_EN-CN2946188055_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp');
+        // filter: blur(5px);
+        z-index: -1;
+    }
 }
